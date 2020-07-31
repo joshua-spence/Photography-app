@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.results{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    max-width: 1024px;
+}
+
+.card{
+    text-align: right;
+}
